@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+        <style>
+
+          .Cal-container
+          {
+            background-color: skyblue;
+            width: 375px;
+            height: 475px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            border-radius: 15px;
+            padding: 20px;
+          }
+
+          .Cal-screen
+          {
+            font-size: 40px;
+            width: 350px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            background-color: #f8e9e9;
+            border: 1px solid;
+            padding: 5px;
+          }
+
+          .button-row
+          {
+            display: flex;
+            justify-content: space-around;
+          }
+
+
+          .Cal-btn
+          {
+            font-size: 17px;
+            color: aliceblue;
+            height: 45px;
+            width: 50px;
+            margin-top: 40px;
+            border: 1px solid rgb(22, 21, 21);
+            border-radius: 26px 48px 55px 75px ;
+            background-color: rgb(92, 89, 89);
+            box-shadow: 4px 0 2px 0 rgb(207, 10, 168);
+          }
+          
+          .text
+          {
+            margin-top: -325px;
+            margin-left: 20px;
+          }
+          
+          .text2
+          {
+            margin-top: -35px;
+            margin-left: 85px;
+          }
+
+          .text3
+          {
+            margin-left: 165px;
+            margin-top: -35px;
+          }
+
+          .text4
+          {
+            margin-left: 258px;
+            margin-top: -35px;
+          }
+
+          .text5
+          {
+            margin-left: 320px;
+            margin-top: -35px;
+          }
+          
+          .text6
+          {
+            margin-left: 5px;
+            margin-top: 70px;
+            
+          }
+
+          .text7
+          {
+            margin-left: 92px;
+            margin-top: -35px;
+            
+          }
+
+          .text8
+          {
+            margin-left: 168px;
+            margin-top: -35px;
+          }
+
+          .text9
+          {
+            margin-left: 248px;
+            margin-top: -35px;
+          }
+
+          .text10
+          {
+            margin-left: 325px;
+            margin-top: -35px;
+          }
+
+          .text12
+          {
+            margin-left: 5px;
+            margin-top: 70px;
+          }
+
+          .text13
+          {
+            margin-left: 82px;
+            margin-top: -35px;
+          }
+
+          .text14
+          {
+            margin-left: 170px;
+            margin-top: -35px;
+          }
+
+          .text15
+          {
+            margin-left: 245px;
+            margin-top: -35px;
+          }
+
+          .text16
+          {
+            margin-left: 320px;
+            margin-top: -35px;
+          }
+
+          .text17
+          {
+            margin-left: 35px;
+            margin-top: 65px;
+          }
+
+          .text18
+          {
+            margin-left: 90px;
+            margin-top: -35px;
+          }
+
+          .text19
+          {
+            margin-left: 170px;
+            margin-top: -35px;
+          }
+
+          .text20
+          {
+            margin-left: 240px;
+            margin-top: -35px;
+          }
+
+          .text21
+          {
+            margin-left: 325px;
+            margin-top: -35px;
+          }
+
+          .text22
+          {
+            margin-left: 10px;
+            margin-top: -390px;
+          }
+
+          .Cal-btn:hover
+          { 
+            color: black;
+            background-color: rgb(243, 243, 80);
+            box-shadow: 2 12px 2 12px  rgb(79, 68, 235);
+            border-radius: 15px 0 25px 0 ;
+            transition: 5s;
+          }
+
+        </style>
+    </head>
+    <body>
+        <div class="Cal-container"> 
+            <input type="text" class="Cal-screen" />
+
+            <div class="button-row">
+              <button class="Cal-btn">0</button>
+              <button class="Cal-btn">1</button>
+              <button class="Cal-btn">2</button>
+              <button class="Cal-btn">3</button>
+              <button class="Cal-btn">+</button>
+            </div>
+
+            <div class="button-row">
+              <button class="Cal-btn">4</button>
+              <button class="Cal-btn">5</button>
+              <button class="Cal-btn">6</button>
+              <button class="Cal-btn">7</button>
+              <button class="Cal-btn">-</button>
+            </div>
+
+            <div class="button-row">
+              <button class="Cal-btn">8</button>
+              <button class="Cal-btn">9</button>
+              <button class="Cal-btn">%</button>
+              <button class="Cal-btn">x</button>
+              <button class="Cal-btn">(-)</button>
+            </div>
+
+            <div class="button-row">
+              <button class="Cal-btn">.</button>
+              <button class="Cal-btn">=</button>
+              <button class="Cal-btn">EXE</button>
+              <button class="Cal-btn">DEL</button>
+              <button class="Cal-btn">EXIT</button>
+            </div>
+
+            <div> 
+              <p class="text">i &nbsp; &nbsp; Z </p>
+            </div>
+
+            <div> 
+              <p class="text2">= &nbsp; space </p>
+            </div>
+
+            <div> 
+              <p class="text3">Mat &nbsp;  V </p>
+            </div>
+
+            <div> 
+              <p class="text4"> W </p>
+            </div>
+
+            <div> 
+              <p class="text5"> [ &nbsp; &nbsp; X </p>
+            </div>
+
+            <div> 
+              <p class="text6"> Catalog &nbsp;  P </p>
+            </div>
+            
+            <div> 
+              <p class="text7"> &nbsp; &nbsp; Q  </p>
+            </div>
+
+            <div> 
+              <p class="text8"> &nbsp; &nbsp; R  </p>
+            </div>
+
+            <div> 
+              <p class="text9"> [ &nbsp; &nbsp; S  </p>
+            </div>
+
+            <div> 
+              <p class="text10"> ] &nbsp; &nbsp; Y  </p>
+            </div>
+
+            <div> 
+              <p class="text12"> Clip &nbsp;  N  </p>
+            </div>
+
+            <div> 
+              <p class="text13"> Paste &nbsp;  O  </p>
+            </div>
+
+            <div> 
+              <p class="text14"> ] &nbsp; &nbsp; T  </p>
+            </div>
+
+            <div> 
+              <p class="text15"> G-T  </p>
+            </div>
+
+            <div> 
+              <p class="text16"> Ans  </p>
+            </div>
+
+            <div> 
+              <p class="text17"> \ </p>
+            </div>
+
+            <div> 
+              <p class="text18"> Set Up  </p>
+            </div>
+
+            <div> 
+              <p class="text19"> ~ &nbsp; ? </p>
+            </div>
+
+            <div> 
+              <p class="text20"> Delete </p>
+            </div>
+
+            <div> 
+              <p class="text21"> Quit </p>
+            </div>
+
+            <div> 
+              <p class="text22"> CASIO </p>
+            </div>
+
+        </div>
+    </body>
+</html>
